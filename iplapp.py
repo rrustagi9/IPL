@@ -82,5 +82,7 @@ if st.sidebar.button('About IPL'):
     st.sidebar.write('The Indian Premier League (IPL) is a professional Twenty20 cricket league, contested by eight teams based out of eight different Indian cities.[3] The league was founded by the Board of Control for Cricket in India (BCCI) in 2007. It is usually held between March and May of every year and has an exclusive window in the ICC Future Tours Programme.')
 if st.button('predict score'):
     my_prediction = int(regressor.predict(data)[0])
+    while((my_prediction-5)<runs):
+        my_prediction=my_prediction+11
     st.write('The score of this inning would most probably be in the range of',my_prediction-5,'to',my_prediction+5 )
             
