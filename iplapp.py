@@ -65,7 +65,7 @@ if overs-math.floor(overs)>0.5:
 runs = st.number_input('enter the total runs',min_value=0,max_value=354,step=1,format='%i')
 wickets =st.slider('enter the wickets fallen till now',0,9)
 wickets=int(wickets)
-runs_in_prev_5 = st.number_input('runs scored in the last 5 overs',min_value=0,max_value=180,step=1,format='%i')
+runs_in_prev_5 = st.number_input('runs scored in the last 5 overs',min_value=0,max_value=runs,step=1,format='%i')
 wickets_in_prev_5 = st.number_input('wickets taken in the last 5 overs',min_value=0,max_value=wickets,step=1,format='%d')
 
 temp_array = temp_array + [overs, runs, wickets, runs_in_prev_5, wickets_in_prev_5]
