@@ -5,3 +5,7 @@ This is python based ML web-app on the IPL usecase to predict the score that can
 # Front-End
 A streamlit based webapp was used to create the front-end of the application deployed on Heroku.
 
+![image](https://user-images.githubusercontent.com/63203344/123743580-0cd24680-d8cb-11eb-897c-04eb0c1126ac.png)
+
+![image](https://user-images.githubusercontent.com/63203344/123743671-325f5000-d8cb-11eb-8aa6-4a72d3143026.png)
+
